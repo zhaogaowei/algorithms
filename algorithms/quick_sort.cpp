@@ -6,15 +6,15 @@ using namespace std;
 size_t partition(int *, int, int);
 void quickSort(int *, int, int);
 
-int main() {
-	int a[] = { -65536,2,8,7,1,3,5,6,4 };
-	quickSort(a,1,8);
-	for (int i = 1; i < 9; ++i)
-		cout << left << setw(3) << a[i];
-	cout << endl;
-	cin.get();
-	return 0;
-}
+//int main() {
+//	int a[] = { -65536,2,8,7,1,3,5,6,4 };
+//	quickSort(a,1,8);
+//	for (int i = 1; i < 9; ++i)
+//		cout << left << setw(3) << a[i];
+//	cout << endl;
+//	cin.get();
+//	return 0;
+//}
 
 size_t partition(int *arr, int l, int h) {
 	int x = arr[h];
