@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="bitree.cpp" />
     <ClCompile Include="counting_sort.cpp" />
     <ClCompile Include="quick_sort.cpp" />
   </ItemGroup>
