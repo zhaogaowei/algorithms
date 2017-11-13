@@ -11,13 +11,13 @@ using namespace std;
 void createBitree(Bitree &t);
 void travelBitree(Bitree t);
 
-int main() {
-	Bitree bt;
-	createBitree(bt);
-	travelBitree(bt);
-	system("pause");
-	return 0;
-}
+//int main() {
+//	Bitree bt;
+//	createBitree(bt);
+//	travelBitree(bt);
+//	system("pause");
+//	return 0;
+//}
 
 void createBitree(Bitree &t) {
 	char ch;

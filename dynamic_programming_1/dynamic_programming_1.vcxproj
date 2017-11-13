@@ -18,21 +18,11 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="bitree.cpp" />
-    <ClCompile Include="counting_sort.cpp" />
-    <ClCompile Include="quick_sort.cpp" />
-    <ClCompile Include="Tree.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="BSTree.h" />
-  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{3F9C94C3-8861-45A0-AB92-E4EB552BBBCB}</ProjectGuid>
-    <RootNamespace>algorithms</RootNamespace>
+    <ProjectGuid>{3FFEAB07-58C3-4092-AA82-79A5E529D615}</ProjectGuid>
+    <RootNamespace>dynamic_programming_1</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.14393.0</WindowsTargetPlatformVersion>
-    <ProjectName>data_struct</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -120,6 +110,12 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="dynamic_programming_1.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="dynamic_programming_1.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

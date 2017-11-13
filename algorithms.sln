@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26228.4
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "algorithms", "algorithms\algorithms.vcxproj", "{3F9C94C3-8861-45A0-AB92-E4EB552BBBCB}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "data_struct", "algorithms\algorithms.vcxproj", "{3F9C94C3-8861-45A0-AB92-E4EB552BBBCB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dynamic_programming_1", "dynamic_programming_1\dynamic_programming_1.vcxproj", "{3FFEAB07-58C3-4092-AA82-79A5E529D615}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,14 @@ Global
 		{3F9C94C3-8861-45A0-AB92-E4EB552BBBCB}.Release|x64.Build.0 = Release|x64
 		{3F9C94C3-8861-45A0-AB92-E4EB552BBBCB}.Release|x86.ActiveCfg = Release|Win32
 		{3F9C94C3-8861-45A0-AB92-E4EB552BBBCB}.Release|x86.Build.0 = Release|Win32
+		{3FFEAB07-58C3-4092-AA82-79A5E529D615}.Debug|x64.ActiveCfg = Debug|x64
+		{3FFEAB07-58C3-4092-AA82-79A5E529D615}.Debug|x64.Build.0 = Debug|x64
+		{3FFEAB07-58C3-4092-AA82-79A5E529D615}.Debug|x86.ActiveCfg = Debug|Win32
+		{3FFEAB07-58C3-4092-AA82-79A5E529D615}.Debug|x86.Build.0 = Debug|Win32
+		{3FFEAB07-58C3-4092-AA82-79A5E529D615}.Release|x64.ActiveCfg = Release|x64
+		{3FFEAB07-58C3-4092-AA82-79A5E529D615}.Release|x64.Build.0 = Release|x64
+		{3FFEAB07-58C3-4092-AA82-79A5E529D615}.Release|x86.ActiveCfg = Release|Win32
+		{3FFEAB07-58C3-4092-AA82-79A5E529D615}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
